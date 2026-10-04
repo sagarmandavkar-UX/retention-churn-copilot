@@ -1,0 +1,10 @@
+{
+  "roc_auc": 0.7899950050910648,
+  "threshold_70pct": {
+    "accounts_targeted": 173,
+    "annual_revenue_at_risk": 304524.0,
+    "expected_revenue_saved": 54814.32,
+    "intervention_cost": 7613.1,
+    "net_value": 47201.22
+  }
+}
