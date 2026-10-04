@@ -1,10 +1,24 @@
 {
-  "roc_auc": 0.7899950050910648,
+  "data_quality": {
+    "rows": 3000,
+    "accounts": 3000,
+    "churned": 929
+  },
+  "test_roc_auc": 0.7944613306315434,
+  "coefficients": {
+    "intercept": -1.0182623733509502,
+    "weekly_sessions": -1.1988930134378069,
+    "tickets_30d": 0.46659289201379056,
+    "nps": -0.5376757913358268,
+    "tenure_months": -0.32712355942334753,
+    "plan_enterprise": -0.15133000779782824,
+    "plan_pro": -0.531601960102
+  },
   "threshold_70pct": {
-    "accounts_targeted": 173,
-    "annual_revenue_at_risk": 304524.0,
-    "expected_revenue_saved": 54814.32,
-    "intervention_cost": 7613.1,
-    "net_value": 47201.22
+    "accounts_targeted": 47,
+    "annual_revenue_at_risk": 109236.0,
+    "expected_revenue_saved": 19662.48,
+    "intervention_cost": 2730.8999999999987,
+    "net_value": 16931.58
   }
 }
